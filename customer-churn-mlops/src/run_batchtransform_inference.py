@@ -11,7 +11,7 @@ region = session.boto_region_name
 role = "<IAM_ROLE_ARN>"
 
 # Replace with your actual model artifact path
-model_artifact = "s3://your-bucket/path-to-trained-model/model.tar.gz"
+model_artifact = "s3://bucket/path-to-trained-model/model.tar.gz"
 
 bucket = session.default_bucket()
 
