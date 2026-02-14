@@ -13,7 +13,7 @@ from sagemaker.workflow.properties import PropertyFile
 
 pipeline_session = PipelineSession()
 region = pipeline_session.boto_region_name
-role = "<YOUR_IAM_ROLE_ARN>"
+role = "<IAM_ROLE_ARN>"
 bucket = pipeline_session.default_bucket()
 
 raw_data_uri = f"s3://{bucket}/churn/raw"
